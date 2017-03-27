@@ -4,6 +4,9 @@
 　　---
 　　<h2>{{ page.title }}</h2>
 　　<p>最新文章</p>
+　　<p>计划：1. 将原来的研究项目放到github上
+            2.规划好blog页面
+</p>
 　　<ul>
 　　　　{% for post in site.posts %}
 　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
